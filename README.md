@@ -1,4 +1,8 @@
 # bert-inference-service
+## Installation
+```
+docker-compose up --build -d
+```
 ## Выбор метрик для бенчмарка
 ### Latency P95 / P99
 #### Что именно она показывает для inference service
