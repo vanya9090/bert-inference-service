@@ -30,7 +30,7 @@ class EmbedRequest(BaseModel):
 
 
 class EmbedResponse(BaseModel):
-    embedding: list[float]
+    embedding: List[float]
 
 
 def compute_embedding(text: str) -> List[float]:
