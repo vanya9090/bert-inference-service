@@ -1,0 +1,9 @@
+services:
+  inference-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bert-inference
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
